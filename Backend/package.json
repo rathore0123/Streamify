@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "stramify"
+  ],
+  "author": "Anuj Rathore",
+  "license": "ISC",
+  "description": "Streamify is an all-in-one streaming platform designed to bring the world of entertainment directly to your fingertips. It offers a diverse library of content, including movies, TV shows, documentaries, live events, and exclusive originals. With a sleek, user-friendly interface.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
